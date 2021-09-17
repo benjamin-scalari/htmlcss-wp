@@ -22,7 +22,6 @@ body{
 /* header */
 .header{
   height: 100px;
-  background-color: rgb(229, 121, 230);
 }
 
 .logo img{
@@ -87,11 +86,6 @@ nav li a:hover, nav li a:active{
 /* corpo della pagina */
 .main{
   height: 750px;
-  background-color: rgb(1, 134, 253);
-}
-
-.main-header, .left-space, .right-space, .center-space{
-  background-color: rgb(171, 207, 231);
 }
 
 .main-header{
@@ -161,7 +155,16 @@ nav li a:hover, nav li a:active{
 /* /corpo della pagina */
 
 .footer{
-  height: 75px;
+  height: 80px;
   margin-top: 10px;
-  background-color: rgb(136, 1, 254);
+  text-align: center;
+}
+
+.made-by{
+  padding-top: 30px;
+}
+
+#heart-color{
+  font-size: 25px;
+  color: red;
 }
