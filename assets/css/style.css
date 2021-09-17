@@ -22,6 +22,16 @@
   background-color: rgb(229, 121, 230);
 }
 
+.logo img{
+  height: 50px;
+  border-right: 1px solid rgb(229, 229, 229);
+  padding-right: 15px;
+}
+
+nav{
+  margin-top: 25px;
+}
+
 nav li{
   list-style: none;
   /* modalità inline-block */
@@ -33,20 +43,20 @@ nav li{
 
 nav li a, nav li a:visited{
   text-transform: uppercase;
-  color: rgb(0, 119, 255);
+  color: rgb(135, 135, 135);
   text-decoration: none;
 }
 
 nav li a:hover, nav li a:active{
   color: blueviolet;
 }
+/* /header */
 
 .jumbotron{
   height: 500px;
   margin: 25px auto;
   background-color: rgb(225, 214, 122);
 }
-/* /header */
 
 /* corpo della pagina */
 .main{
