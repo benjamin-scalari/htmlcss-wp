@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+/* font montserrat regular 400 */
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+.header{
+  height: 100px;
+  background-color: rgb(229, 121, 230);
+}
+
+nav li{
+  list-style: none;
+  /* modalità inline-block */
+  /* display: inline-block; */
+  /* modalità float */
+  float: left;
+  margin-right: 10px;
+}
+
+nav li a, nav li a:visited{
+  text-transform: uppercase;
+  color: rgb(0, 119, 255);
+  text-decoration: none;
+}
+
+nav li a:hover, nav li a:active{
+  color: blueviolet;
+}
+
+.jumbotron{
+  height: 500px;
+  margin: 25px auto;
+  background-color: rgb(225, 214, 122);
+}
+/* /header */
+
+/* corpo della pagina */
+.main{
+  height: 750px;
+  background-color: rgb(1, 134, 253);
+}
+
+.main-header, .left-space, .right-space, .center-space{
+  background-color: rgb(171, 207, 231);
+}
+
+.main-header{
+  height: 75px;
+}
+
+.left-space{
+  float: left;
+  width: 15%;
+  height: 85%;
+  margin-top: 20px;
+}
+
+.center-space{
+  float: left;
+  width: 65%;
+  height: 85%;
+  margin-top: 20px;
+  margin-left: 2.5%;
+}
+
+.right-space{
+  float: right;
+  width: 15%;
+  height: 85%;
+  margin-top: 20px;
+}
+/* /corpo della pagina */
+
+.footer{
+  height: 75px;
+  margin-top: 10px;
+  background-color: rgb(136, 1, 254);
+}
