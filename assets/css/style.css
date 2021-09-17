@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 /* font montserrat regular 400 */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 
 .clearfix::after{
   content: "";
@@ -52,11 +55,34 @@ nav li a:hover, nav li a:active{
 }
 /* /header */
 
+/* jumbotron */
 .jumbotron{
   height: 500px;
   margin: 25px auto;
-  background-color: rgb(225, 214, 122);
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
+.layer{
+  height: 500px;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.jumbotron, .layer{
+  border-radius: 10px;
+}
+
+.j-text{
+  width: 50%;
+  margin-left: 50px;
+  padding-top: 20%;
+  color: white;
+}
+.j-title{
+  font-size: 35px;
+}
+/* /jumbotron */
 
 /* corpo della pagina */
 .main{
