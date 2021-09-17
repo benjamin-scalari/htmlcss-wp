@@ -57,7 +57,7 @@ nav li a:hover, nav li a:active{
 
 /* jumbotron */
 .jumbotron{
-  height: 500px;
+  height: 600px;
   margin: 25px auto;
   background-image: url("../img/banner.jpg");
   background-size: cover;
@@ -65,18 +65,18 @@ nav li a:hover, nav li a:active{
 }
 
 .layer{
-  height: 500px;
+  height: 100%;
   background-color: rgba(0, 0, 0, .3);
 }
 
-.jumbotron, .layer, .image-container, .m-layer{
+.jumbotron, .layer, .left-image, .m-layer{
   border-radius: 10px;
 }
 
 .j-text{
   width: 50%;
   margin-left: 50px;
-  padding-top: 20%;
+  padding-top: 25%;
   color: white;
 }
 .j-title{
@@ -98,13 +98,23 @@ nav li a:hover, nav li a:active{
   height: 75px;
 }
 
-.m-layer{
+.main-layer{
   height: 100%;
   background-color: rgba(0, 0, 0, .3);
 }
 
-.m-title{
+.main-title{
   font-size: 45px;
+}
+
+.images{
+  height: 30%;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-titles{
+  margin: 25px 0;
 }
 
 /* contenuto a sinistra */
@@ -115,18 +125,12 @@ nav li a:hover, nav li a:active{
   margin-top: 20px;
 }
 
-.image-container{
-  height: 30%;
+.left-image{
   background-image: url("../img/img-1.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.left-title{
-  margin: 25px 0;
 }
 /* /contenuto a sinistra */
 
+/* contenuto centrale */
 .center-space{
   float: left;
   width: 65%;
@@ -134,6 +138,13 @@ nav li a:hover, nav li a:active{
   margin-top: 20px;
   margin-left: 2.5%;
 }
+
+.center-image{
+  height: 30%;
+  background-image: url("../img/banner-2.jpg");
+
+}
+/* /contenuto centrale */
 
 .right-space{
   float: right;
