@@ -20,9 +20,6 @@ body{
 }
 
 /* header */
-.header{
-  height: 100px;
-}
 
 .logo img{
   height: 50px;
@@ -37,9 +34,9 @@ nav{
 nav li{
   list-style: none;
   /* modalità inline-block */
-  /* display: inline-block; */
+  display: inline-block;
   /* modalità float */
-  float: left;
+  /* float: left; */
   margin-right: 10px;
 }
 
